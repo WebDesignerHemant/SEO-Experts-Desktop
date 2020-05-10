@@ -1,0 +1,314 @@
+/* CSS Document */
+
+* {
+	margin: 0 auto;
+	padding: 0;
+	font-family: sans-serif;
+	font-size: 16px;
+	list-style-type: none;	
+	text-decoration-line: none;
+	line-height: 1.2;
+}
+
+.container {
+	width: 775px;
+	height: auto;
+	background: #100c09 url(../images/background/BackgroundEffect.png) no-repeat top center;
+}
+
+.header {
+	width: 100%;
+	
+}
+
+.nav ul {
+	text-align: center;
+	line-height: 49px;
+	height: 48px;
+	background: url(../images/background/Menu_OnePixel.jpg) repeat-X;
+	border-bottom: 1px solid #483216;
+}
+
+.nav ul li {
+	display: inline;
+	padding: 0 30px;
+	background: url(../images/background/MenuBars.jpg) no-repeat right center;
+}
+
+.nav ul li:last-child {
+	background:none;
+}
+
+.nav ul li a {
+	font-size: 12px;
+	color: #d2c9af;
+}
+
+.heroImage {
+	width: 626px;
+	height: 126px;
+	padding-top: 55px;
+	background: url(../images/background/Spotlight.png) no-repeat top right;
+	margin-top: -7px;
+}
+
+.heroImage h1 {
+	background: url(../images/background/Logo.png) no-repeat;
+	height: 54px;
+	text-indent: -9999px;
+}
+
+.main {
+	width: 646px;
+}
+
+.whiteSection {
+	background: #ffffff;
+	border-radius: 7px;
+	padding: 7px;
+	position: relative;
+	z-index: 102;
+}
+
+.greySection {
+	background-color: #eeeeee;
+	border-radius: 7px;
+	padding-top: 13px;
+	margin-bottom: 15px;
+}
+
+.greySection ul li {
+	display: inline-block;
+	width: 32.8%;
+	text-align: center;
+	background: url(../images/background/SectionDivider.png) no-repeat right center;
+}
+
+.greySection ul li:last-child {
+	background: none;
+}
+
+.greySectionImage {
+	margin-bottom: 16px;
+}
+
+.greySectionHeading {
+	font-size: 14px;
+	font-weight: normal;
+	margin-bottom: 10px;
+}
+
+.greySectionParagraph {
+	font-size: 10px;
+	width: 168px;
+	color: #ae6125;
+	margin-bottom: 16px;
+}
+
+.greySectionAnchor {
+	padding: 2px 20px; 
+	background-color: #f2ecdb;
+	border: 1px solid #ffffff;
+	border-bottom: none;
+	display: inline-block;
+	border-top-left-radius: 7px;
+	border-top-right-radius: 7px;
+	font-size: 10px;
+	color: #7a6154;
+}
+
+.welcomeSection,
+.newsSection {
+	display: inline-block;
+	width: 45%;
+	padding-left: 26px;
+}
+
+.welcomeSection {
+	background: url(../images/background/SectionDivider.png) no-repeat center right;
+}
+
+.welcomeSection h2,
+.newsSection h2 {
+	font-weight: normal;
+	font-size: 18px;
+	color: #424242;
+}
+
+.welcomeSection h2 span,
+.newsSection h2 span {
+	font-size: 18px;
+	color: #e89f39;
+}
+
+.welcomeSection h3,
+.newsSection h3 {
+	text-transform: uppercase;
+	font-size: 10px;
+	color: #7b7b7b;
+	margin-bottom: 15px;
+}
+
+.welcomeSection p {
+	display: inline-block;
+	width: 48%;
+	vertical-align: top;
+	font-size: 10px;
+	color: #848484;
+	line-height: 1.35;
+	padding-left: 15px;
+}
+
+.welcomeSection p span {
+	font-weight: bold;
+	color: #ae6125;
+	font-size: 10px;
+}
+
+.welcomeSection ul li {
+	font-size: 10px;
+	line-height: 2.2;
+	list-style: url(../images/background/ArrowBullet.png) inside;
+	color: #b2ab94;
+	text-decoration-line: underline;
+}
+
+.newsSection ul li {
+	padding-top: 10px;
+}
+
+.newsSection ul li:first-child {
+	border-bottom: 2px dotted #979290;
+}
+
+.newsSection ul li h4 {
+	background: url(../images/background/CalenderIcon.png) no-repeat;
+	height: 16px;
+	padding-left: 25px;
+	font-size: 11px;
+	color: #ae6125;
+	padding-top: 2px;
+}
+
+.newsSectionParagraph {
+	font-size: 10px;
+	color: #b2ab94;
+	text-decoration-line: underline;
+	line-height: 1.8;
+	margin-bottom: 4px;
+}
+
+.brownSection {
+	padding: 0 8px;
+	background-color: #302621;
+	position: relative;
+	margin-top: -5px;
+}
+
+.consulting,
+.service {
+	display: inline-block;
+	width: 45%;
+	margin: 20px 11px 20px 20px;
+}
+
+.consulting {
+	border-right: 1px dashed rgba(255,255,255,0.15);
+}
+
+.consulting h2,
+.service h2 {
+	font-size: 18px;
+	font-weight: normal;
+	color: #d2c9af;
+	height: 45px;
+	padding: 8px 60px 0;
+}
+
+.consulting h2 {
+	background: url(../images/background/SEOConsulting.png) no-repeat;
+}
+
+.service h2 {
+	background: url(../images/background/SEOService.png) no-repeat;	
+}
+
+.consulting h3,
+.service h3 {
+	font-size: 10px;
+	color: #ffffff;
+	opacity: 0.5;
+	text-transform: uppercase;
+	font-weight: normal;
+	margin-top: -25px;
+    margin-bottom: 15px;
+    padding-left: 60px;
+}
+
+.consulting p {
+	font-size: 10px;
+	color: #b2ab94;
+	width: 252px;
+	line-height: 1.5;
+	margin-bottom: 10px; 
+}
+
+.consulting p span {
+	font-size: 11px;
+	font-weight: bold; 
+}
+
+.consulting a {
+	background-color: #f5ab0e;
+	padding: 3px 15px;
+	color: #ffffff;
+	font-size: 10px;
+	border-radius: 7px;
+	margin-left: 60%;
+}
+
+.service p {
+	font-size: 11px;
+	color: #ffffff;
+	font-weight: bold;
+	margin-bottom: 15px;
+}
+
+.service p span {
+	font-size: 10px;
+	color: #b2ab94;
+	font-weight: normal;
+	text-decoration-line: underline;
+}
+
+.service {
+	float: right
+}
+
+.footer ul {
+	padding-top: 15px;
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+.footer ul li {
+	display: inline;
+	padding: 0 10px;
+	border-right: 1px solid #b3ab94;
+}
+
+.footer ul li:last-child {
+	border-right: none;
+}
+
+.footerAnchor {
+	font-size: 11px;
+	color: #b3ab94;
+}
+
+.footer p {
+	text-align: center;
+	font-size: 10px;
+	color: #b3ab94;
+	padding-bottom: 15px;
+}
